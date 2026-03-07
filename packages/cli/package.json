@@ -1,0 +1,22 @@
+{
+  "name": "@agentforge/cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "agentforge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@agentforge/core": "*",
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
